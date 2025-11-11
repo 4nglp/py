@@ -25,7 +25,7 @@ def calc(a, b):
     return a + b, a * b, a - b
 sum_, product, diff = calc(5, 3)
 print(sum_, product, diff)
-
+sum
 #*args → for many positional arguments
 def add_all(*nums):
     total = 0

@@ -1,4 +1,4 @@
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry","batata","onion"]
 numbers = [1, 2, 3, 4, 5]
 mixed = ["hi", 12, 3.5, True]
 empty = []
@@ -7,7 +7,7 @@ fruits[0]       # 'apple' (first element)
 fruits[-1]      # 'cherry' (last element)
 fruits[1:3]     # ['banana', 'cherry'] (slice)
 fruits[:2]      # ['apple', 'banana'] (first 2)
-fruits[::2]     # ['apple', 'cherry'] (step of 2)
+print(fruits[::2])    # ['apple', 'cherry'] (step of 2)
 
 fruits.append("orange")       # add to the end
 fruits.insert(1, "kiwi")      # insert at index 1
@@ -41,8 +41,6 @@ for fruit in fruits:
 for i in range(len(fruits)):
     print(i, fruits[i])
 
-for i, fruit in enumerate(fruits):
-    print(i, fruit)
 
 a = [1, 2, 3]
 b = [4, 5, 6]
