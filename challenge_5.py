@@ -2,6 +2,8 @@ import random
 
 types = ["jbn", "gr3", "sif", "fls"]
 nums = list(range(1, 13))
+nums.remove(8)
+nums.remove(9)
 
 cards = []
 
