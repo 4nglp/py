@@ -1,4 +1,5 @@
 def nacr_num(n):
+    num = n
     list = []
     while n > 0:
         w = n % 10
@@ -8,5 +9,9 @@ def nacr_num(n):
     pow = [] 
     for i in range(l):
         pow.append(list[i]**l)
-    return sum(pow)
-print(nacr_num(153))
+    narc = sum(pow)
+    if narc == num:
+        print("the number is narc")
+    else:
+        print("it ain't")
+nacr_num(153)
