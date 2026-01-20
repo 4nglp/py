@@ -24,3 +24,4 @@ def occ_arr(l,n):
         if l[0] == n:
             occ = occ+1
         return occ + occ_arr(l[1:],n)
+
