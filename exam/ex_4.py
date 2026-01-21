@@ -1,8 +1,8 @@
 def nchiff(x):
     occ = 0
-    print(x)
+    x = abs(x)
     while x > 0:
         x = x//10
-        occ += 1
+        occ = occ + 1
     print(occ)
-nchiff(1234)
+nchiff(-12411)
