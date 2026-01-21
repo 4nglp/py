@@ -4,5 +4,6 @@ def nchiff(x):
     while x > 0:
         x = x//10
         occ = occ + 1
-    print(occ)
-nchiff(-12411)
+    return occ
+num = int(input("enter a num: "))
+print(f'ur {num} has {nchiff(num)} digits')
