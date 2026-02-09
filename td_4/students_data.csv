@@ -1,0 +1,11 @@
+id,sex,filiere,note,absences
+1,M,Info,15.5,2
+2,F,Math,18.0,0
+3,F,Physique,12.0,5
+4,M,Info,9.5,8
+5,F,Info,14.0,1
+6,M,Physique,11.0,3
+7,M,Math,16.5,0
+8,F,Physique,13.5,4
+9,M,Math,10.0,6
+10,F,Info,17.0,2
