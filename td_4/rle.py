@@ -50,3 +50,9 @@ def comp(s):
     sc+=curr_char+str(count)
     return sc
 
+def decomp_sc(sc):
+    s=""
+    for i in range(0,len(sc),2):
+        s+= sc[i]*int(sc[i+1])
+    return s
+print(decomp_sc("M5N4B1"))
